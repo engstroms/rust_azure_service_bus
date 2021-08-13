@@ -14,8 +14,8 @@ async fn main() {
         5671,
         "RootManageSharedAccessKey",
         "mykey",
-        "sub-id",
         "topic",
+        "sub-id",
     );
 
     let client = ServiceBusClient::new(client_options);
